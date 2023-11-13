@@ -1,0 +1,167 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 35px 140px 0 33px;
+   
+}
+.header_logo {
+    background: linear-gradient(90deg, #5E4CB3 2.17%, #9D61FF 18.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header_nav ul {
+    display: inline-flex;
+    gap: 0 27px;
+}
+
+.header_nav ul li {
+    list-style: none;
+}
+
+.header_nav-link {
+    color: #5E4CB3;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header_contacts {
+    display: flex;
+    gap: 0 14px;
+    
+}
+
+.header_phone-wrapper {
+    display: flex;
+    flex-direction: column
+}
+
+.header_phone-number { 
+    color:#5E4CB3;
+    font-size: 24px;
+    font-weight: 800;
+
+    text-decoration: none;
+}
+
+.work_time {
+    color:#5E4CB3;
+    font-size: 12px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.header_request-call-btn {
+    border-radius: 5px;
+    background: #9D61FF;
+    border: none;
+    color: #fff;
+
+    padding: 20px 30px;
+}
+
+.header_contacts-item {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.header_social-link {
+    margin-bottom: 7px;
+}
+
+.wrapper_Beginning {
+    display: flex;
+    padding: 90px 20px 0px 140px;
+}
+
+.Beginning-headline {
+    color:#5E4CB3;
+    font-size: 49px;
+    font-weight: 700;
+
+    margin-bottom: 33px;
+}
+
+.Beginning-headline span {
+    color: #9D61FF;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.Beginning-information {
+    color:#5E4CB3;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.Beginning-information span {
+    color: #9D61FF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.Beginning-discription_form {
+    margin-top: 116px;
+}
+
+.Beginning-form {
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 800;
+    background-color: #9D61FF;
+
+    border-radius: 5px;
+    padding: 22px 78px;
+    border: none;
+}
+
+.Beginning_wrapper_footer-taitle {
+    margin-top: 20px;
+}
+
+.Beginning_footer-taitle {
+    color: #9D61FF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Beginning_footer-taitle span {
+    color:#5E4CB3;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Beginning-img {
+    margin-top: -135px;
+    margin-left: -279px;
+
+    width: 1150px;
+    height: 640px;  
+}
+
+.down-arrow1 {
+    text-align: center;
+    padding-top: 91px;
+}
+
+
+
+
+
+
+
