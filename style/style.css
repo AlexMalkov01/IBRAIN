@@ -10,6 +10,7 @@
    justify-content: space-between;
    align-items: center;
    padding: 35px 140px 0 33px;
+   background-color: #fff;
 
 }
 .header_logo {
@@ -86,11 +87,21 @@
 .wrapper_Beginning {
     display: flex;
     padding: 90px 20px 0px 140px;
+    position: relative;
+}
+
+.wrapper_Beginning::after{
+    content: url("../IMG/Group\ 31.png");
+    position: absolute;
+    z-index: -1;
+    right: 20px;
+    top: -100px;
+
 }
 
 .beginning-headline {
     color: #5E4CB3;
-    font-size: 49px;
+    font-size: 36px;
     font-weight: 700;
 
     margin-bottom: 33px;
@@ -98,19 +109,19 @@
 
 .beginning-headline span {
     color: #9D61FF;
-    font-size: 49px;
+    font-size: 36px;
     font-weight: 700;
 }
 
 .beginning-information {
     color: #5E4CB3;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
 }
 
 .beginning-information span {
     color: #9D61FF;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -121,7 +132,7 @@
 .Beginning-form {
     color: #FFF;
     text-align: center;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 800;
     background-color: #9D61FF;
 
@@ -136,28 +147,27 @@
 
 .beginning_footer-taitle {
     color: #9D61FF;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
 }
 
 .beginning_footer-taitle span {
     color: #5E4CB3;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
 }
 
-.beginning-img {
+/* .beginning-img {
     margin-top: -250px;
     margin-left: -279px;
     z-index: -1;
 
     width: 1150px;
     height: 897p 
-}
-
+} */
 .down-arrow1 {
     text-align: center;
-    margin-top: -95px;
+    margin-top: 95px;
 }
 
 #information_block {
@@ -181,15 +191,15 @@
 .information_block-wrapper {
     display: flex;
     padding-top: 90px;
-    gap: 60px;
+    gap: 20px;
     flex-wrap: wrap;
     padding-bottom: 60px;
 }
 
 .information_wrapper-block {
-    width: 500px;
-    height: 250px;
+    width: calc(100% / 3 - 20px);
     padding-left: 16px;
+    padding-bottom: 29px;
     
     border-radius: 10px;
     background: #FFF;
@@ -199,28 +209,28 @@
 .information_block-nomber {
     color: #B798BF;
     text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    font-size: 75px;
+    font-size: 64px;
     font-weight: 700;
 
 }
 
 .information_block-headline {
     color: #446FB3;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
 
 }
 
 .information_block-paragraf {
     color: #5E4CB3;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
 
     margin-right: 61px;
 } 
 
 .information_block-Line-6{
-    width: 250px;
+    width: 50%;
     height: 2px;
     margin-top: 10px;
     margin-bottom: 8px;
