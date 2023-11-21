@@ -84,7 +84,7 @@
 }
 
 #beginning {
-    background: url(../IMG/Group\ 31.png);
+    background: url(../IMG/Example\ of\ the\ site.png);
     background-position: right;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -98,14 +98,6 @@
     position: relative;
 }
 
-/* .wrapper_Beginning::after{
-    content: url("../IMG/Group\ 31.png");
-    position: absolute;
-    z-index: -1;
-    right: 20px;
-    top: -100px;
-} */
-
 .beginning-headline {
     color: #5E4CB3;
     font-size: 36px;
@@ -114,10 +106,14 @@
     margin-bottom: 33px;
 }
 
-.beginning-headline span {
+.span {
     color: #9D61FF;
     font-size: 36px;
     font-weight: 700;
+}
+
+.beginning-taitle {
+    width: calc(100% / 2);
 }
 
 .beginning-information {
@@ -152,14 +148,6 @@
     font-weight: 300;
 }
 
-/* .beginning-img {
-    margin-top: -250px;
-    margin-left: -279px;
-    z-index: -1;
-
-    width: 1150px;
-    height: 897p 
-} */
 .down-arrow1 {
     text-align: center;
     margin-top: 95px;
@@ -173,12 +161,6 @@
 
 .information_block__headline {
     color: #5E4CB3;
-    font-size: 36px;
-    font-weight: 800;
-}
-
-.span {
-    color: #9D61FF;
     font-size: 36px;
     font-weight: 800;
 }
@@ -274,7 +256,7 @@
 }
 
 .dsc-product__headline {
-    display: inline;
+    display: inline-block;
     margin-bottom: 18px;
     
     grid-row: 2;
