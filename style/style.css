@@ -344,3 +344,59 @@
     list-style: none;
 }
 
+#Accreditation {
+    margin: 0 140px;
+    padding: 26px 0;
+
+    border-radius: 10px;
+    background: #F0D577;
+
+    position: relative;
+}
+
+#Accreditation::before {
+    content: url("../IMG/gold-bitrix.png");
+    position: absolute;
+    left: 34px;
+    bottom: 9px;
+}
+
+.block_certifocate {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    margin: 0 20px;
+    gap: 19px 0;
+
+    border-radius: 10px;
+    border: 1px solid #FFF;
+
+    padding-top: 27px;
+    padding-bottom: 19px;
+}
+
+.name-certifocate {
+    width: 231px;
+    margin-right: 95px;
+
+    width: 231px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-certifocate__symbol {
+    color: #9F9F9F;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.name-certifocate__taitle {
+    color: var(--1, #2A2367);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+
+    margin: 6px 10px 14px 10px;
+}
