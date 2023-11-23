@@ -1,0 +1,22 @@
+#about-business {
+    padding: 163px 78px 150px 140px;
+}
+
+.about-business-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-business-text__taitle {
+    color: #5E4CB3;
+    font-size: 36px;
+    font-weight: 800;
+
+    margin-bottom: 66px;
+}
+
+.about-business-text__dsc {
+    color: #5E4CB3;
+    font-size: 18px;
+    font-weight: 400;
+}
