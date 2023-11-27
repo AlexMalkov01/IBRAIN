@@ -1,0 +1,174 @@
+#stages {
+    padding-left: 141px;
+    padding-right: 140px;
+}
+
+.stages-info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding-bottom: 150px;
+}
+
+.stages-list-nav {
+    list-style: none;
+    margin-top: 23px;
+
+    position: relative;
+}
+
+.stages-list-nav::before {
+    content: "";
+    width: 5px;
+    height: 363px;
+    position: absolute;
+    left: -43px;
+
+    border-radius: 50px;
+
+    background: #5E4CB3;
+}
+
+.stages-nav {
+    margin-left: 70px;
+}
+
+.stages-step {
+    grid-column: 2 / -1;
+    padding: 23px 43px 95px 43px;
+    margin-left: 71px;
+    
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15);
+}
+
+.stages__taitle {
+    color: #5E4CB3;
+    font-size: 36px;
+    font-weight: 800;
+    
+    margin-bottom: 57px
+}
+
+.stages-list__item {
+    color: #5E4CB3;
+    font-size: 15px;
+    font-weight: 600;
+
+    position: relative;
+}
+
+.stages-list__item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.stages-list__item::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    background-color: #5E4CB3;
+    
+    position: absolute;
+    left: -52px;
+
+    border-radius: 50px;
+}
+
+.stages-about-step {
+    display: flex;
+    align-items: center;
+}
+
+.stages-about-step__num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #446FB3;
+    color: #fff;
+
+    width: 53px;
+    height: 53px;
+}
+
+.stages-about-step__taitle {
+    color: #5E4CB3;
+    font-size: 24px;
+    font-weight: 700;
+
+    padding-left: 50px;
+}    
+
+.stages-step:not(:last-child){
+    margin-bottom: 55px;
+}
+
+.stages-about-step__divide {
+    height: 1px;
+    background-color: #EBEBEB;
+
+    margin: 27px 0;
+}
+
+.stages-about-step__dsc {
+    color: #5E4CB3;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-right: 38px;
+}
+
+.about-step-img {
+    margin-top: 15px;
+}
+
+.about-step-img__img {
+    width: 100%;
+}
+
+.tsages-list__link {
+    text-decoration: none;
+    color:  #5E4CB3;
+}
+
+.about-step-img_margin-top {
+    margin-top: 46px;
+}
+
+.stages-step_indentation {
+    grid-column: 2 / -1;
+    padding: 23px 43px 30px 43px;
+    margin-left: 71px;
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15);
+}
+
+.stages-step__5 {
+    grid-column: 2 / -1;
+    padding: 23px 43px 150px 43px;
+    margin-left: 71px;
+    
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15);
+}
+
+.stages-step__6 {
+    grid-column: 2 / -1;
+    padding: 23px 43px 194px 43px;
+    margin-left: 71px;
+    
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15); 
+}
+
+
