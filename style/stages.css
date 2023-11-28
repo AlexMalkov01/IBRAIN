@@ -171,4 +171,7 @@
     box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15); 
 }
 
+.bacgraund-img__img {
+    width: 100%;
+}
 
